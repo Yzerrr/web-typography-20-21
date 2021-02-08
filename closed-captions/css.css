@@ -17,9 +17,18 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
+/* voices */
 .voice1 {
 	font-style: italic;
+	color: red;
 }
+.voice2{
+	color: pink;
+}
+.voice3{
+color: green;
+}
+/* voices */
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -37,6 +46,7 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s;
 	font-weight: 200;
+	
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
@@ -102,15 +112,89 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
+
+/* sound1 */
 .sound1 {
-	background: yellow;
+	
+  background-color:black;
+  animation-name: sound1;
+  animation-duration: 2s;
+}
+@keyframes sound1 {
+	0% {background-color: red;}
+	/* 25% {background-color: red;}
+	50% {background-color: black;}
+	75% {background-color: red;} */
+	100% {background-color: black;}
+}
+/* sound1 */
+
+/* sound2 */
+.sound2{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	animation-name: sound2;
+	animation-duration: 1;
+}
+@keyframes sound2{
+	0% {background-color: black;}
+	75% { background-color: rgb(65, 47, 8);}
+	100% {background-color: rgb(10, 9, 8);}
+}
+/* sound2 */
+/* sound3 */
+.sound3{
+	
+	animation: sound3 1s ;
+	border: 2px solid red; 
+	border-radius: 25px;
+	height: 100%;
+	width: 25%;
+}
+@keyframes sound3 {
+    0% { width: 1px;}
+	25% { background-color: white;}
+	100% { width: 25%; 
+		background-color: black;}
 }
 
-iframe {
-	transition: 1s;
+/* sound3 */
+/* sound4 */
+/* sound4 */
+
+/* sound5 */
+.sound5{
+	
+	animation: sound5 1s ;
+	border: 2px solid red; 
+	border-radius: 20px;
+	height: 100%;
+	width: 60%;
 }
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-	transform: rotate(1turn);
+@keyframes sound5 {
+    0% { width: 25%;}
+	25% { background-color: white;}
+	
+	100% { width: 60%; 
+	background-color: black;}
 }
+/* sound5 */
+/* sound7 */
+.sound7{
+	
+	animation: sound7 1s ;
+	border: 2px solid red; 
+	border-radius: 20px;
+	height: 100%;
+	width: 71.5%;  
+	background-color: white;
+}
+@keyframes sound7 {
+    0% { width: 60%;}
+	25% { background-color: black;}
+	75% { background-color: white;}
+	100% { width: 71.5%; 
+	background-color: white;}
+}
+/* sound7 */
