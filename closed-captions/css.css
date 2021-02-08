@@ -156,7 +156,7 @@ Sounds.
     0% { width: 1px;}
 	25% { background-color: white;}
 	100% { width: 25%; 
-		background-color: black;}
+		background-color: black;} 
 }
 
 /* sound3 */
