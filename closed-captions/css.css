@@ -39,17 +39,17 @@ body {
 }
 
 
-
+/* k */
 .voice1 {
 	font-family: "Brenner display";
-	color: white;
+	color: yellow;
 	font-size: 1.4em;
 
 }
 
 
 .voice2 {
-	color: yellowgreen;
+	color: white;
 	font-size: 1.4em;
 	font-family: "Brenner mono";
 
@@ -66,11 +66,575 @@ body {
 	color: pink;
 	font-family: "Brenner light";
 
+}
+.voice4 {
+	color: white;
+	font-family: "Brenner mono medium";
+	font-size: 2em;
+	background-color: rgba(0, 128, 0, 0.541);
 
 }
 
+.p0 span {
+	opacity: 0;
+	font-family: brenner;
+	font-size: 5em;
+}
 
+.p0.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
 
+.p0.on span:nth-of-type(2) {
+	opacity: 1;
+	/* transition: 0s .4s; */
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
+
+.p0.on span:nth-of-type(3) {
+	opacity: 1;
+	/* transition: 0s .5s; */
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
+
+.p0.on span:nth-of-type(4) {
+	opacity: 1;
+	/* transition: 0s .7s; */
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
+
+.p0.on span:nth-of-type(5) {
+	opacity: 1;
+	/* transition: 0s 1.1s; */
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
+
+.p0.on span:nth-of-type(6) {
+	opacity: 1;
+	/* transition: 0s 1.4s; */
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
+
+.p0.on span:nth-of-type(7) {
+	opacity: 1;
+	/* transition: 0s 1.7s; */
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
+
+.p0.on span:nth-of-type(8) {
+	opacity: 1;
+	/* transition: 0s 2s; */
+	font-family: "brenner slab";
+	/* font-weight: 900; */
+	font-size: 1.4em;
+	color: yellow;
+}
+
+.p0.on span:nth-of-type(9) {
+	opacity: 1;
+	/* transition: 0s 3s; */
+	font-family: " Brenner sans";
+	font-size: 1.4em;
+	color: yellow;
+
+}
+
+.p0.on span:nth-of-type(10) {
+	opacity: 1;
+	/* transition: 0s 3.2s; */
+	font-family: "brenner Sans condensed";
+	font-size: 1.4em;
+	color: yellow;
+
+}
+
+.p0.on span:nth-of-type(11) {
+	opacity: 1;
+	transition: 0s 3.3s;
+	font-family: "brenner mono";
+	color: yellowgreen;
+	font-size: 1.4em;
+
+}
+
+/* yes sir */
+.p1.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 0s .3s;
+	font-family: "brenner mono";
+	color: white;
+	font-size: 2em;
+}
+
+.p1.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0.4s;
+	font-family: "brenner sans";
+	color: whitesmoke;
+	font-size: 1.6em;
+}
+
+/* yes sir */
+/* recite your basline */
+.p2.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 0s .1s; */
+	font-family: "brenner slab";
+	color: yellowgreen;
+	font-size: 1.5em;
+}
+
+.p2.on span:nth-of-type(2) {
+	opacity: 1;
+	/* transition: 0s .2s; */
+	font-family: "brenner slab";
+	color: yellowgreen;
+	font-size: 1.5em;
+}
+
+.p2.on span:nth-of-type(3) {
+	opacity: 1;
+	/* transition: 0s .3s; */
+	font-family: "brenner slab";
+	color: yellowgreen;
+	font-size: 1.5em;
+}
+
+/* and blood-black nothingness began to spin */
+.p3.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 0s .1s; */
+	font-family: "brenner mono";
+	color: whitesmoke;
+	font-size: 1.5em;
+}
+
+.p3.on span:nth-of-type(2) {
+	opacity: 1;
+	/* transition: 0s .3s; */
+	font-family: "brenner mono";
+	color: whitesmoke;
+	font-size: 1.5em;
+}
+
+.p3.on span:nth-of-type(3) {
+	opacity: 1;
+	/* transition: 0s .6s; */
+	font-family: "brenner mono";
+	color: white;
+	font-size: 1.5em;
+}
+
+.p3.on span:nth-of-type(4) {
+	opacity: 1;
+	/* transition: 0s .9s; */
+	font-family: "brenner mono";
+	font-size: 1.5em;
+	color: whitesmoke;
+}
+
+.p3.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s 1.1s;
+	font-family: "brenner slab";
+	font-size: 1.5em;
+	color: whitesmoke;
+}
+
+.p3.on span:nth-of-type(6) {
+	opacity: 1;
+	/* transition: 2s 1.2s; */
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	color: whitesmoke;
+}
+
+/* a system of cells interlinked  */
+.p4.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 2s 1.2s; */
+	font-family: "brenner mono";
+	font-size: 1.5em;
+
+}
+
+.p4.on span:nth-of-type(2) {
+	opacity: 1;
+	/* transition: 2s 1.2s; */
+	font-family: "brenner mono";
+	font-size: 1.5em;
+
+}
+
+.p4.on span:nth-of-type(3) {
+	opacity: 1;
+	/* transition: 2s 1.2s; */
+	font-family: "brenner mono";
+	font-size: 1.5em;
+
+}
+
+.p4.on span:nth-of-type(5) {
+	opacity: 1;
+	/* transition: 2s 1.2s; */
+	font-family: "brenner mono";
+	font-size: 1.5em;
+
+}
+
+.p4.on span:nth-of-type(6) {
+	opacity: 1;
+	/* transition: 2s 1.2s; */
+	font-family: "brenner mono";
+	font-size: 1.5em;
+
+}
+
+.p4.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "brenner serif";
+	font-size: 1.9em;
+
+}
+
+.p4.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "brenner serif";
+	font-size: 1.9em;
+
+}
+
+/* interlinked within cells, interlinked within one stem. */
+
+.p5.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "brenner serif";
+	font-size: 1.5em;
+
+}
+
+/* Fuck off, skin-job! */
+.p6.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Mono Regular Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -271px;
+	left: 470px;
+}
+
+.p6.on span:nth-of-type(2) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Mono Light";
+	font-size: 1em;
+	position: absolute;
+	top: -260px;
+	left: 500px;
+}
+
+.p6.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -240px;
+	left: 520px;
+}
+
+/* cels!! */
+.p8.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+
+.p9.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p10.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 160px;
+}
+.p10.on span:nth-of-type(2) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 230px;
+}
+.p10.on span:nth-of-type(3) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 290px;
+}
+.p10.on span:nth-of-type(4) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 350px;
+}
+.p10.on span:nth-of-type(5) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  bold Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 420px;
+}
+.p10.on span:nth-of-type(6) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  bold Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -119px;
+	left: 290px;
+}
+.p10.on span:nth-of-type(7) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  bold Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -87px;
+	left: 252px;
+}
+
+.p11.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner  Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+/* k- right low */
+.p12.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p14.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+.p15.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p17.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+
+.p18.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+/* interlinked */
+.p19.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.6em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+.p20.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p22.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+.p23.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p25.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+.p26.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p28.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+.p29.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  Medium ";
+	font-size: 1em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p31.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  Medium ";
+	font-size: 1em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p33.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+.p34.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner  Medium ";
+	font-size: 1em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
+.p35.on span:nth-of-type(11) {
+	opacity: 1;
+	transition:  1.2s;
+	font-family: "Brenner Light ";
+	font-size: 0.7em;
+	
+}
+.p36.on span:nth-of-type(1) {
+	opacity: 1;
+	transition: 1s 1.2s;
+	font-family: "Brenner Slab Medium Italic";
+	font-size: 1.5em;
+	position: absolute;
+	top: -159px;
+	left: 430px;
+}
+.p37.on span:nth-of-type(1) {
+	opacity: 1;
+	/* transition: 1s 1.2s; */
+	font-family: "Brenner Slab Medium ";
+	font-size: 1.5em;
+	position: absolute;
+	top: -10px;
+	right: 320px;
+}
 /* voices */
 
 /* **********************************************
@@ -232,7 +796,8 @@ Sounds.
 
 .sound8 {
 	background-color: #ADB9A6;
-	animation: flickeringBeep 1s 43;
+	animation: flickeringBeep 1s 20;
+	animation-delay: 5s;
 }
 
 @keyframes flickeringBeep {
@@ -336,7 +901,7 @@ Sounds.
 @keyframes beep {
 	0% {
 		font-size: 1.5em;
-		transform: scale(3.0);
+		transform: scale(1.0);
 	}
 
 	50% {
